@@ -11,19 +11,19 @@
     ],
     "autoload": {
         "psr-4": {
-            "GaryCodingTeam\\AuthModule\\": "src/"
+            "Cs111116\\AuthModule\\": "src/"
         }
     },
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
         "laravel/sanctum": "^4.0",
-        "cs111116/laravel-auth-module": "v1.0.0"
+        "Cs111116/laravel-auth-module": "v1.0.0"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "cs111116\\AuthModule\\Providers\\AuthServiceProvider"
+                "Cs111116\\AuthModule\\Providers\\AuthServiceProvider"
             ]
         }
     },
