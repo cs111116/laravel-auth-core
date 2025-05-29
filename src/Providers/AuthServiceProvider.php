@@ -1,10 +1,10 @@
 <?php
 
-namespace GaryCodingTeam\AuthModule\Providers;
+namespace cs111116\AuthModule\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use GaryCodingTeam\AuthModule\Repositories\Contracts\UserRepositoryInterface;
-use GaryCodingTeam\AuthModule\Repositories\UserRepository;
+use cs111116\AuthModule\Repositories\Contracts\UserRepositoryInterface;
+use cs111116\AuthModule\Repositories\UserRepository;
 
 class AuthServiceProvider extends ServiceProvider
 {

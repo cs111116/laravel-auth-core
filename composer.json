@@ -1,5 +1,5 @@
 {
-    "name": "garycodingteam/laravel-auth-module",
+    "name": "cs111116/laravel-auth-module",
     "type": "library",
     "description": "Reusable Laravel Auth API module",
     "license": "MIT",
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "garycodingteam\\AuthModule\\Providers\\AuthServiceProvider"
+                "cs111116\\AuthModule\\Providers\\AuthServiceProvider"
             ]
         }
     },
