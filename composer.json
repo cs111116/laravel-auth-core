@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Cs111116\\AuthModule\\": "src/"
+            "Cs111116\\AuthCore\\": "src/"
         }
     },
     "require": {
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cs111116\\AuthModule\\Providers\\AuthServiceProvider"
+                "Cs111116\\AuthCore\\Providers\\AuthServiceProvider"
             ]
         }
     },
